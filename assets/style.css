@@ -289,8 +289,11 @@ footer div img {
   }
 }
 @media (max-width: 600px) {
+  header img {
+    width: 18rem;
+  }
   html {
-    font-size: 52.5%;
+    font-size: 60%;
   }
   .course-container {
     width: 100%;
@@ -355,9 +358,9 @@ footer div img {
     font-size: 58%;
   }
 }
-@media (max-height: 870px) {
+@media (max-height: 863px) and (max-width: 600px) {
   html {
-    font-size: 54%;
+    font-size: 58%;
   }
 }
 @media (max-width: 390px) {
