@@ -21,7 +21,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1.5rem;
   padding: 2.1rem 0 0rem;
 }
@@ -362,12 +362,52 @@ footer div img {
     font-size: 58%;
   }
 }
-@media (max-height: 863px) and (max-width: 600px) {
+@media (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-height: 950px) and (max-width: 600px) {
   html {
     font-size: 56%;
   }
 }
-@media (max-width: 390px) {
+@media (max-height: 850px) and (max-width: 600px) {
+  html {
+    font-size: 52%;
+  }
+}
+@media (max-height: 775px) and (max-width: 600px) {
+  html {
+    font-size: 48%;
+  }
+}
+@media (max-height: 715px) and (max-width: 600px) {
+  html {
+    font-size: 44%;
+  }
+}
+@media (max-height: 655px) and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 380px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-height: 770px) and (max-width: 380px) {
+  html {
+    font-size: 46%;
+  }
+}
+@media (max-height: 700px) and (max-width: 380px) {
+  html {
+    font-size: 42%;
+  }
+} /**/
+/* @media (max-width: 390px) {
   html {
     font-size: 54%;
   }
@@ -386,4 +426,4 @@ footer div img {
   html {
     font-size: 45%;
   }
-}
+} */
